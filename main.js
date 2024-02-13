@@ -139,3 +139,16 @@ function  uncover(id){
     }
 
 }
+
+// boton de Reinicio
+document.addEventListener("DOMContentLoaded", function() {
+    // Selecciona el botón por su ID
+    var btnReset = document.getElementById("btnReset");
+
+    // Agrega un evento de clic al botón
+    btnReset.addEventListener("click", function() {
+        // Aquí puedes agregar la lógica para reiniciar tu aplicación o realizar acciones de reinicio
+        // En este ejemplo, simplemente recargamos la página
+        location.reload();
+    });
+}); 
