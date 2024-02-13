@@ -93,11 +93,13 @@ div{
 }
 
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:800px){
     main{
+        width: 90%;
         flex-direction: column;
         padding: 0 10px;
         flex: 1;
+
     }
     button {
         height: 60px; 
